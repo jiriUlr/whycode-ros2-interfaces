@@ -1,0 +1,8 @@
+int8 SAVE = 0  # save coordinate calibration
+int8 LOAD = 1  # load coordinate calibration
+
+int8 action
+string path  # path to yaml file
+---
+bool success  # bool feedback
+string msg  # status message

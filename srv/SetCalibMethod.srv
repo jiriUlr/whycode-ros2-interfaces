@@ -1,0 +1,7 @@
+int8 AUTO = 0  # automatic calibration
+int8 MANUAL = 1  # manual calibration
+
+int8 method
+---
+bool success  # bool feedback
+string msg  # status message
